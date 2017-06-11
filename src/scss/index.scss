@@ -1,0 +1,113 @@
+@import '~grommet/scss/vanilla/index';
+.header {
+	height: 72px;
+	background: #242835;
+	justify-content: space-between;
+	.menu-icon {
+		stroke: white;
+	}
+}
+.content {
+	height: calc(100vh - 72px);
+	background: #292d3b;
+}
+.slidebar-content {
+	background: #1b2125;
+}
+.signin-button {
+	margin-top: 30px;
+	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+    border-color: #147050;
+    border-radius: 0px;
+}
+.register-button {
+	margin-top: 30px;
+	color: white;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	border-color: #147050;
+    background: #147050;
+    border-radius: 0px;
+    &:hover {
+    	text-decoration: none;
+    }
+}
+.modal-dialog {
+	border-radius: 0px !important;
+	background: #2a2e3c;
+	padding: 10px;
+	padding-top: 0px;
+	&.narcissus_17w311v {
+		padding-top: 20px;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		background: #2a2e3c;
+	}
+	.narcissus_86uon7 {
+		display: none;
+	}
+	.modal-close-button {
+		background: #2a2e3c;
+		padding-right: 10px;
+		.modal-icon {
+			stroke: white;
+		}
+	}
+}
+.container {
+	width: 500px;
+	margin-top: 0px;
+	.login-input {
+		width: 99%;
+		background: #dadada;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		border-radius: 5px;
+		border-color:white;
+	}
+	.login-label {
+		color: white;
+		margin-left: 5px;
+	    margin-right: 5px;
+
+	}
+	.sign-button {
+		width: 98%;
+		background: #3f474f;
+		margin-bottom: 10px;
+		border-radius: 5px;
+	    color: white;
+	    margin-left: 5px;
+	    margin-right: 5px;
+	    padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.form-error {
+		color: red;
+		font-size: 10px;
+	}
+	.line {
+		background: #181e21;
+		width: 100%;
+		height: 1px;
+	}
+	.login-form-footer {
+		background: #2a2e3c;
+		.register-button {
+			color: white;
+			width: 48%;
+		    text-align: center;
+		    background: #2a2e3c;
+		    margin-top: 10px;
+	        text-decoration: none;
+	        margin-bottom: 20px
+		}
+	}
+}
